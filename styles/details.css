@@ -1,0 +1,11 @@
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.bv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

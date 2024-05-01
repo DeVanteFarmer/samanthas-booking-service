@@ -1,0 +1,48 @@
+@import "./details.css";
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+
+/*Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+	color: tomato;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 24px;
+	line-height: 1.5;
+}
+
+h1 {
+    font-family: "Patua One", serif;
+    text-align: center;
+    letter-spacing: 2px;
+    border: solid tomato;
+    background-color: burlywood;
+}
+
+h2,h3,h4,h5,h6 {
+    font-family: "Patua One", serif;
+    letter-spacing: 2px;
+  }
+
+.venues {
+    font-size: 2rem;
+    list-style-type: disc;
+}
+
+.venues li {
+    list-style-type: disc; 
+    padding-left: 20px; 
+}
+
+.bookings {
+    font-size: 2rem;
+    list-style-type: disc;
+}
+
+.bookings li {
+    list-style-type: disc; 
+    padding-left: 20px; 
+}
