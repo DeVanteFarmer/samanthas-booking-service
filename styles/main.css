@@ -8,18 +8,24 @@ button,
 input,
 select,
 textarea {
-	color: tomato;
+	color: #f5f5dc;
 	font-family: "Comfortaa", Arial, sans-serif;
 	font-size: 24px;
 	line-height: 1.5;
+}
+
+body {
+    background-color: black;
+    background-image: url(/images/background.jpg);
+    background-size: cover;
 }
 
 h1 {
     font-family: "Patua One", serif;
     text-align: center;
     letter-spacing: 2px;
-    border: solid tomato;
-    background-color: burlywood;
+    border: 6px inset tomato;
+    background-color: black;
 }
 
 h2,h3,h4,h5,h6 {
@@ -27,12 +33,12 @@ h2,h3,h4,h5,h6 {
     letter-spacing: 2px;
   }
 
-.venues {
+.bv {
     font-size: 2rem;
     list-style-type: disc;
 }
 
-.venues li {
+.bv li {
     list-style-type: disc; 
     padding-left: 20px; 
 }
@@ -40,6 +46,7 @@ h2,h3,h4,h5,h6 {
 .bookings {
     font-size: 2rem;
     list-style-type: disc;
+    
 }
 
 .bookings li {
